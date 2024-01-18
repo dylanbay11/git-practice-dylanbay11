@@ -1,0 +1,14 @@
+bfc4c0d Merge pull request #1 from jmc8290/feature-jmc8290
+0de374b change text of new_features.txt
+f9af3e8 Merge branch 'features'
+730e59a new_features now has yet MORE new text within features this time
+db37318 Replaced new_features text in main
+093fd74 Merge branch 'features' into main, hopefully without conflict
+5633bd1 Added another line to file_1
+c08f226 Added a line to new_features
+c3438c6 add empty file
+9e36841 Created a markdown Readme file
+cd965b1 Added a .gitignore file
+b3779b2 Added a line to file_2
+14801d5 Added a line to file_1
+e25ca3e create new files

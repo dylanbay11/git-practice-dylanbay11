@@ -1,0 +1,78 @@
+   20  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  616  git --version
+  617  git version
+  619  brew install git-gui
+  620  git-gui
+  622  git version
+  623  git config --global core.editor "nano"
+  624  git config --global user.name "Dylan Bay"
+  625  git config --global user.email "dylanbay11@gmail.com"
+  626  git config --list
+  627  git config --global init.defaultBranch main
+  628  git version
+  629  git config --list
+  640  cd ../dshw/git-practice-dib
+  643  git init
+  644  echo "GIT IS WORKING PROBABLY" > working_git.txt
+  646  less working_git.txt
+  648  nano .git
+  650  cd .git
+  656  git add test.txt
+  657  git commit -m "first commit attempt"
+  658  git log
+  659  git status
+  661  git add test.txt
+  662  git commit test.txt
+  663  git log
+  664  git status
+  783  cd git-practice-dib
+  786  cd .git
+  793  mkcd git-practice-dylanbay11
+  799  git version
+  800  gitcode
+  801  cd ../git-practice-dib
+  802  git status
+  803  git add working_git.txt
+  804  git commit working_git.txt -m "IDK where this working_git came from"
+  805  git status
+  806  git remote add origin git@github.com:dylanbay11/git-practice-dib.git
+  807  git status
+  809  git help
+  810  git help push
+  811  git push -u origin main
+  812  git status
+  819  git push
+  820  git status
+  821  git add file2.txt
+  822  git commit file2.txt -m "added two lines"
+  823  git push
+  826  mkcd git-practice-esnt
+  827  git clone git@github.com:esnt/git-practice-esnt.git
+  831  mv git-practice-esnt git-practice-esnt2
+  832  cd git-practice-esnt2
+  834  mv git-practice-esnt ../
+  837  rm -rf git-practice-esnt2
+  838  cd git-practice-esnt
+  844  cd git-practice-dylanbay11
+  846  git status
+  847  git add new_features.txt
+  848  git commit new_features.txt
+  849  git status
+  850  git commit
+  852  git status
+  853  git branch -d features
+  854  git remote add origin git@github.com:dylanbay11/git-practice-dylanbay11.git
+  855  git push -u origin main
+  857  git clone git@github.com:dylanbay11/git-practice-jmc8290.git
+  859  cd git-practice-jmc8290
+  861  git branch feature-dylanbay11
+  862  git status
+  863  git switch feature-dylanbay11
+  864  git status
+  870  git status
+  871  git add file_1.txt
+  872  git commit file_1.txt -m "I changed file_1 with some new whitespace as well"
+  873  git push origin feature-dylanbay11
+  874  cd ../git-practice-dylanbay11
+  875  git pull
+  879  loggy > gitlog.txt
