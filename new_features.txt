@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-No new features will be created
-=======
-This file has some new text
->>>>>>> features
+This file has had its text modified by jmc8290 on January 18, 2024
